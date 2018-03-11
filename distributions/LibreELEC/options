@@ -147,7 +147,7 @@
   CEC_SUPPORT="yes"
 
 # build and install CEC framework support (yes / no)
-  CEC_FRAMEWORK_SUPPORT="no"
+  CEC_FRAMEWORK_SUPPORT="yes"
 
 # build and install iSCSI support - iscsistart (yes / no)
   ISCSI_SUPPORT="yes"
@@ -217,8 +217,8 @@
   DISTRO_PKG_SETTINGS="LibreELEC-settings"
 
 # IR remote protocols supported in default config
-  IR_REMOTE_PROTOCOLS="RC6 NEC"
+  IR_REMOTE_PROTOCOLS="RC5 RC6 NEC CEC"
 
 # IR remote keymaps supported in default config
-  IR_REMOTE_KEYMAPS="rc6_mce xbox_360 xbox_one"
+  IR_REMOTE_KEYMAPS="hauppauge rc6_mce xbox_360 xbox_one"
 
